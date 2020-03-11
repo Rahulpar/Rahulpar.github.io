@@ -1,2 +1,2 @@
-# Rahulpar.github.io
-Test page of Mysore Darshini
+# mysored-upd-v_01
+Mysore Darshini website upgrade project

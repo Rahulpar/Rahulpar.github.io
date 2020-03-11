@@ -1,0 +1,204 @@
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+
+#section-About {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: #f6f6f6;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+/* test */
+
+#explore-classic-section {
+  background-color: #f6f6f6;
+}
+
+#home-section {
+  background: url(../Images/MD/about_us_dosa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 110px;
+}
+
+
+// Google Map Configuration
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  //width: 100%;  /* The width is the width of the web page */
+}
+
+//.navbar-toggler-icon{
+//    color: white;
+//    background-color: #f86161;
+//}
+
+/***********************/
+/* Main Navbar effects */
+/***********************/
+
+.navbar {
+  padding: 0;
+}
+
+#navbar-bottom-hr {
+  border-bottom: #f2f6f8 1px solid;
+}
+
+#hero-text-hr {
+  border-bottom: #f2f6f8 1px solid;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Title */
+.navbar .navbar-brand {
+    color: rgb(250, 212, 41);
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: rgb(255, 255, 255);
+}
+/* Link */
+.navbar .navbar-nav > li > a {
+  color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: rgb(250, 212, 41);
+}
+
+/***********************/
+/* Main Navbar effects */
+/***********************/
+
+/* Work Items Nav Style */
+
+.nav .nav-item .nav-link:hover,
+.nav .nav-item .nav-link:focus{
+  color: rgb(250, 212, 41) !important;
+}
+
+// Menu html page & Menu Section 
+
+#menu-section {
+  background: url(../Images/MD/menu_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+}
+
+#menu-section .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 800px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#menu-section .menu-inner {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#menu-top-hr
+{
+  border-bottom: #f2f6f8 1px solid;
+  width: 50%;
+}
+
+#menu-bottom-hr
+{
+  border-bottom: #f2f6f8 1px solid;
+  width: 25%;
+}
+
+// Manu Nav Tab Styling 
+
+.nav .nav-item {
+  color: rgb(10, 8, 4) !important;
+  border: #95aaee 1px solid;
+  margin: 3px;
+}
+
+.nav .nav-item:hover,
+.nav .nav-item:focus {
+  color: rgb(250, 152, 4) !important;
+  border: #95aaee 1px solid;
+}
+// Manu Nav Tab Styling 
+// Menu html page & Menu Section 
+
+
+// Style for Shailu signature in Menu Section
+#Salutation {
+  font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: #fdfdfd;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+#about-section .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/***********************************/
+/* Bootstrap Card Effects          */
+/***********************************/
+
+// Card Images with same size
+
+/*
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}*/
+
+.card:hover{
+  -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+ }
+
+// Footer Styling
+
+#footer {
+//background-image: linear-gradient(to bottom, #cfd9df 0%, #e2ebf0 100%);
+background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, rgb(52, 71, 83), #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom,rgb(52, 71, 83), #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#address_bottom_hr{
+  border-bottom: #f2f6f8 1px solid;
+}

@@ -1,0 +1,1039 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+.header-strip {
+  background: #d1202e;
+  padding: 11px 10%;
+}
+
+.btn-custom {
+  padding: 5 10;
+  background: #d1202e;
+  color: floralwhite;
+}
+
+.btn-custom:hover {
+  background: floralwhite;
+  color: #d1202e;
+}
+
+.header-strip-left, .header-strip-right {
+  display: inline-block;
+}
+
+.header-strip-left > .address, .phone {
+  color: #fffbb5;
+}
+
+.header-strip-left > .address {
+  margin-right: 50px;
+}
+
+.header-strip-right {
+  float: right;
+}
+
+.header-strip-right > .social-icons > span {
+  padding: 0 10px;
+}
+
+.header-strip-right > .social-icons > span > a {
+  color: #fffbb5;
+}
+
+.navigation > .navbar-container {
+  padding: 30px 9.5%;
+}
+
+.navigation-logo {
+  padding: 0 !important;
+}
+
+.navbar-links {
+  font-weight: 600;
+  color: #242424;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #cfb569 !important;
+}
+
+.align-center {
+  margin: 0 auto;
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.about-banner {
+  background-image: url("../images/about_banner.jpg");
+}
+
+.menu-banner {
+  background-image: url("../images/menu_banner.jpg");
+}
+
+.contact-banner {
+  background-image: url("../images/contact_banner.jpg");
+}
+
+.banner-text {
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.banner-text-1 {
+  color: #f1c648;
+  font-family: sans-serif;
+  font-size: 32px;
+  letter-spacing: 5.8px;
+}
+
+.banner-text-2 {
+  font-family: "Playfair Display", serif;
+  font-size: 95.5px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.banner-text-3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30.5px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* about us section */
+.about-us {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about-us-left {
+  text-align: left;
+}
+
+.about-us-left > .about-us-our-story-text {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  text-align: center;
+  color: #101010;
+  letter-spacing: 9.2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about-us-left > .about-us-greeting-text {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  letter-spacing: normal;
+  color: #101010;
+  margin-bottom: 20px;
+}
+
+.about-us-left > .about-us-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.61;
+  color: #101010;
+}
+
+.about-us-left > .about-us-text > .para {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.para-rage-font {
+  font-family: "Rage Italic";
+  font-size: 24px;
+}
+
+.button {
+  border: solid 1px #cdcdcd;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 50px;
+}
+
+.button-text {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  color: #101010;
+}
+
+/* offer-images */
+.offers {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: #f6f6f6;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.offers-text {
+  text-align: center;
+}
+
+.offers-text > .offer-text-hot-offer {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 9.2px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.offers-text > .offer-text-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #101010;
+}
+
+.offers-text > .offer-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.95;
+  color: #101010;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.offers-list {
+  margin-top: 70px;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.offer-list-image {
+  margin-bottom: 50px;
+}
+
+.offer-list-price-text {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cfb569;
+}
+
+.offer-list-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #101010;
+  margin: 10px auto;
+}
+
+.offer-list-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.95;
+  color: #101010;
+  margin: 0 auto;
+}
+
+/* menus */
+.menus {
+  background-image: url("../images/menu-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.menu-header {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.menu-header > .menu-header-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #101010;
+}
+
+.menu-header > .menu-header-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.95;
+  color: #101010;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.menu-buttons {
+  margin-top: 50px;
+  position: relative !important;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons > .button-1, .button-2, .button-3, .button-4 {
+  border: solid 2px #cdcdcd;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.button-text {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 4.2px;
+  color: #101010;
+  display: inline;
+}
+
+.carousel-indicators {
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+}
+
+.menu-list {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.menu-item > div {
+  display: inline-block;
+}
+
+.menu-list > .menu-item {
+  margin-bottom: 75px;
+}
+
+.menu-list > .menu-item > .menu-image > .menu-list-image {
+  width: 120px;
+}
+
+.menu-list > .menu-item > .menu-item-price {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #cfb569;
+  float: right;
+  margin-top: 8%;
+}
+
+.menu-text {
+  width: calc(100% - 200px);
+  vertical-align: middle;
+}
+
+.menu-text > .menu-text-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #101010;
+  text-align: left;
+}
+
+.menu-text > .menu-text-detail {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #c1c1c1;
+}
+
+.carousel-row {
+  width: 100%;
+}
+
+.carousel-prep-button {
+  left: -100px !important;
+}
+
+.carousel-next-button {
+  right: -150px !important;
+}
+
+.carousel-prep-icon, .carousel-next-icon {
+  background-color: grey !important;
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 100%;
+}
+
+/* menu special */
+.menu-special {
+  background-image: url("../images/menu-special-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.menu-special-header {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.menu-special-header > .menu-special-header-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.menu-special-header > .menu-special-header-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.95;
+  color: #ffffff;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.menu-special-body {
+  margin-top: 80px;
+}
+
+.menu-special-list-image {
+  margin-bottom: 0;
+  height: 100% !important;
+}
+
+.menu-special-body-item {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.menu-special-text-box {
+  background: black;
+  opacity: .5;
+}
+
+.menu-special-body-item > .menu-special-body-item-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px auto;
+}
+
+.menu-special-body-item > .menu-special-body-item-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.95;
+  color: #adadad;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.menu-special-body-item > .menu-special-body-item-price-text {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cfb569;
+  margin-top: 20px;
+}
+
+.active-button {
+  background-color: #cfb56a;
+  color: white !important;
+  border-color: #cfb56a;
+}
+
+/* resturant hour */
+.restaurant-hour {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 5%;
+  padding-top: 7%;
+}
+
+.restaurant-hour-text {
+  text-align: center;
+}
+
+.restaurant-hour-text > .restaurant-hour-text-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #101010;
+}
+
+.restaurant-hour-text > .restaurant-hour-subtext {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.95;
+  color: #101010;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.restaurant-hour-box {
+  margin-top: 70px;
+}
+
+.day-and-hour {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.92;
+  font-size: 20px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.day {
+  margin: 0 !important;
+}
+
+.day > span {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.day > .weekday-name {
+  font-family: "Playfair Display", serif;
+  color: #eed793;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 2px solid #f6f6f6;
+  vertical-align: top;
+}
+
+.day > .open-hour, .close-hour {
+  font-family: "Raleway", sans-serif;
+  color: #101010;
+  padding: 20px;
+  background-color: #ebebeb;
+  border: 2px solid #f6f6f6;
+}
+
+.day > .close-hour {
+  background-color: #dfdfdf;
+}
+
+/* footer */
+.map-canvas {
+  height: 500px;
+  width: 100%;
+}
+
+.main-footer {
+  background: #1e1e1e;
+}
+
+.footer-container {
+  padding: 60px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #848789;
+}
+
+.address-heading, .contact-heading {
+  margin: 20px 0;
+}
+
+.footer-strip {
+  background: #d1202e;
+  padding: 11px 10%;
+}
+
+.footer-social-icon {
+  padding: 25px 0;
+  font-size: 25px;
+}
+
+.footer-social-icon > .social-icons > span {
+  padding: 0 10px;
+}
+
+.footer-social-icon > .social-icons > span > a {
+  color: #fffbb5;
+}
+
+.footer-strip-center {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  text-align: center;
+}
+
+.footer-strip-center > .copy-right-text {
+  color: #fbf0b5;
+}
+
+.copy-left-text {
+  float: right !important;
+  color: #fbf0b5;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list::hover {
+  text-decoration: none;
+  color: #f1c648;
+}
+
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+/* media query */
+@media screen and (max-width: 1440px) {
+  .carousel-prep-button {
+    left: -40px !important;
+    height: calc(100% - 100px);
+    top: inherit !important;
+  }
+  .carousel-next-button {
+    right: -40px !important;
+    height: calc(100% - 100px);
+    top: inherit !important;
+  }
+  /* footer */
+  .map-canvas {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    font-size: 12px;
+  }
+  .header-strip {
+    padding: 5px 5%;
+  }
+  .header-strip-left > .address {
+    margin-right: 10px;
+  }
+  .navigation > .navbar-container {
+    padding: 15px 5%;
+  }
+  .banner-text {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .banner-text-1 {
+    font-size: 20px;
+  }
+  .banner-text-2 {
+    font-size: 50px;
+  }
+  .banner-text-3 {
+    font-size: 18px;
+  }
+  /* about us section */
+  .about-us {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  .about-us-left > .about-us-our-story-text {
+    font-size: 16px;
+  }
+  .about-us-left > .about-us-greeting-text {
+    font-size: 20px;
+  }
+  .para-rage-font {
+    font-size: 20px;
+  }
+  .about-us-left > .about-us-text {
+    font-size: 12px;
+  }
+  .button {
+    padding: 10px 30px;
+  }
+  .button-text {
+    font-size: 16px;
+  }
+  .about-us-image {
+    display: none;
+  }
+  /* offer-images */
+  .offers {
+    padding-bottom: 20%;
+    padding-top: 20%;
+  }
+  .offers-text > .offer-text-hot-offer {
+    font-size: 12px;
+  }
+  .offers-text > .offer-text-heading {
+    font-size: 40px;
+  }
+  .offers-text > .offer-text {
+    font-size: 12px;
+    max-width: 80%;
+  }
+  .offers-list {
+    margin-top: 50px;
+  }
+  .offer-list-image {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .offer-list-price-text {
+    font-size: 12px;
+  }
+  .offer-list-heading {
+    font-size: 20px;
+  }
+  .offer-list-text {
+    font-size: 12px;
+  }
+  /* menus */
+  .menus {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .menu-header > .menu-header-heading {
+    font-size: 40px;
+  }
+  .menu-header > .menu-header-text {
+    font-size: 12px;
+    max-width: 80%;
+  }
+  .menu-buttons {
+    margin-top: 25px;
+  }
+  .buttons > .button-1, .button-2, .button-3, .button-4 {
+    margin: 5px 0;
+    padding: 2px;
+  }
+  .button-text {
+    font-size: 10px;
+  }
+  .menu-list > .menu-item {
+    margin-bottom: 20px;
+  }
+  .menu-list > .menu-item > .menu-image > .menu-list-image {
+    width: 100px;
+  }
+  .menu-list > .menu-item > .menu-item-price {
+    font-size: 16px;
+    margin-top: 10%;
+    float: none;
+  }
+  .menu-text {
+    width: 100%;
+  }
+  .menu-text > .menu-text-heading {
+    font-size: 16px;
+  }
+  .menu-text > .menu-text-detail {
+    font-size: 12px;
+  }
+  .carousel-indicators {
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+  }
+  .carousel-prep-button {
+    left: 0px !important;
+    height: calc(100% - 300px);
+    top: inherit !important;
+  }
+  .carousel-next-button {
+    right: 0px !important;
+    height: calc(100% - 300px);
+    top: inherit !important;
+  }
+  .carousel-prep-icon, .carousel-next-icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  /* menu special */
+  .menu-special {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .menu-special-header > .menu-special-header-heading {
+    font-size: 40px;
+  }
+  .menu-special-header > .menu-special-header-text {
+    font-size: 12px;
+    max-width: 80%;
+  }
+  /*  */
+  .menu-special-body {
+    margin-top: 40px;
+  }
+  /* .no-padding {
+    margin: 0 15px !important;
+    padding: 10% 0 !important;
+  } */
+  .menu-special-body-item {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .menu-special-body-item > .menu-special-body-item-heading {
+    font-size: 20px;
+    margin: 5px auto;
+  }
+  .menu-special-body-item > .menu-special-body-item-text {
+    font-size: 12px;
+  }
+  .menu-special-body-item > .menu-special-body-item-price-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  /* resturant hour */
+  .restaurant-hour {
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
+  .restaurant-hour-text > .restaurant-hour-text-heading {
+    font-size: 40px;
+  }
+  .restaurant-hour-text > .restaurant-hour-subtext {
+    font-size: 12px;
+    max-width: 80%;
+  }
+  .restaurant-hour-box {
+    margin-top: 25px;
+  }
+  .day-and-hour {
+    font-size: 12px;
+  }
+  .day > span {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+  }
+  .day > .weekday-name {
+    padding: 10px;
+  }
+  .day > .open-hour, .close-hour {
+    padding: 10px;
+  }
+  /* footer */
+  .map-canvas {
+    height: 250px;
+  }
+  .footer-container {
+    padding: 30px 0;
+    font-size: 12px;
+  }
+  .address-heading, .contact-heading {
+    margin: 10px 0;
+  }
+  .footer-image {
+    margin: 20px 0;
+  }
+  .footer-strip-center {
+    font-size: 10px;
+  }
+}
+
+/* contact us page */
+.contact-us {
+  padding: 10% 0;
+}
+
+.contact-us {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.contact-us-left > .heading {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #282828;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-us-left .address, .contact, .email, .website {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #282828;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.contact-us-link {
+  color: #282828;
+}
+
+.contact-us-left .label {
+  font-weight: bold;
+  color: #cfb569;
+}
+
+.contact-us-form-row {
+  margin: 10px 0;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 15px 0;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 2.22;
+  text-align: left;
+  color: #282828;
+}
+
+input:-ms-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 2.22;
+  text-align: left;
+  color: #282828;
+}
+
+input::-ms-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 2.22;
+  text-align: left;
+  color: #282828;
+}
+
+input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 2.22;
+  text-align: left;
+  color: #282828;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 15px 0;
+}
+
+textarea:focus {
+  outline-width: 0;
+}
+
+.contact-submit-button {
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+}
+
+.contact-text-area {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 2.22;
+  text-align: left;
+  color: #282828;
+}
+
+.contact-submit-button > .button {
+  color: #ffffff;
+  padding: 15px 40px;
+  background-color: #cfb569;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-us {
+    padding: 10% 0;
+  }
+  .contact-us-left > .heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .contact-us-left .address, .contact, .email, .website {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  input {
+    padding: 10px 0;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  textarea {
+    padding: 10px 0;
+  }
+  .contact-text-area {
+    font-size: 12px;
+  }
+  .contact-submit-button > .button {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+}
+
+/*
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: scale-down;
+}
+*/
+/*# sourceMappingURL=style.css.map */
