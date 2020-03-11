@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mysore Darshini</title>
+    <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Raleway" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/c713fd0df31cf4e5f8e4f09e92698c6d?family=Rage+Italic" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home.css">
+
+
+    <!-- jquery, popperJs and bootstrap css -->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="../js/geoloc.js" async></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuJuluqfAUXyyTriPNjBczaHLkmGYC5yA&callback=initMap">
+        </script>
+
+</head>
+
+<body>
+
+
+    <!--<div class="home-banner">
+        <img src="../Images/MD/home_banner1.jpg" class="img-fluid" alt="">
+    </div> -->
+    </section>
+
+    <section id="about-section">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-4">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="../html/index.html">
+                                <img src="../Images/MD/Logo_Color.png" width="60" height="60" alt="">
+                                MYSORE DARSHINI</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <i class="fa fa-bars" style="color:#fff;"></i>
+                                </span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../html/index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../html/menu.html">MENU</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../html/about.html">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#footer">CONTACT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#footer">SIGN IN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#footer">SIGN OUT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <hr id="navbar-bottom-hr">
+                    </div>
+                </div>
+            </div> <!-- Navbar Container ends here -->
+        </div> <!-- Dark Overlay Ends Here -->
+    </section>
+
+    <br>
+
+    <div class="container">
+        <div class="row justify-content-right">
+            <div class="col-md-4">
+                <div class="card mt-4 mb-4 boarder-info">
+                    <div class="card-header"><p class="lead">Signed is as Shailu123...!!!</p></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-create-dish-tab" data-toggle="tab"
+                            href="#nav-create-dish" role="tab" aria-controls="nav-create-dish"
+                            aria-selected="true">Create New Dish</a>
+                        <a class="nav-item nav-link" id="nav-update-dish-tab" data-toggle="tab" href="#nav-update-dish"
+                            role="tab" aria-controls="nav-update-dish" aria-selected="false">Update Existing Dish</a>
+                            <a class="nav-item nav-link" id="nav-delete-dish-tab" data-toggle="tab" href="#nav-delete-dish"
+                            role="tab" aria-controls="nav-delete-dish" aria-selected="false">Delete Dish</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-create-dish" role="tabpanel"
+                        aria-labelledby="nav-create-dish">
+                        <div class="card mt-4 mb-4 border-info">
+                            <div class="card-header text-center"><strong>Create New Dish Form</strong></div>
+                            <div class="card-body">
+                                <form id="dish-search-form">
+                                    <div class="form-group">
+                                        <label for="dishClassification">Category of Dish</label>
+                                        <select class="form-control" id="dishClassification">
+                                            <option>Veg Curries</option>
+                                            <option>Appetizers</option>
+                                            <option>Soups & Salads</option>
+                                            <option>Beverages</option>
+                                            <option>Breads</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="dishHeader">Dish Header</label>
+                                        <input type="text" class="form-control" id="dishHeader"
+                                            aria-describedby="dishHeader" placeholder="Mysore Dish #1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="dishDesc">Dish Description</label>
+                                        <textarea class="form-control" id="dishDesc" rows="3"
+                                            placeholder="Mysore Speciality dish cooked with some spices"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlFile1">Upload Dish Image ( 500X 500 Pixels
+                                            )</label>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                    <div class="div">
+                                        <div class="row justify-content">
+                                            <div class="col-md-6">
+                                                <button type="submit"
+                                                    class="btn btn-block border-success">Create</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button type="submit"
+                                                    class="btn btn-block border-danger">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-update-dish" role="tabpanel" aria-labelledby="nav-update-dish-tab">...
+
+                    </div>
+                    <div class="tab-pane fade" id="nav-delete-dish" role="tabpanel" aria-labelledby="nav-delete-dish-tab">..123
+                    
+                    </div>
+                </div> <!-- Tab content ends here -->
+            </div>
+        </div>
+    </div>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-4 mt-3 mb-4 text-white text-center id=" Address-div">
+                    <p class="lead text-center">Address</p>
+                    <hr id="address_bottom_hr">
+                    <p class="lead">4025 Brandon Gate Drive Mississauga,</p>
+                    <p class="lead">ON, L4T 3Z9</p>
+                </div>
+                <div class="col-lg-4 mt-3 mb-4 text-white text-center" id="Contact-div">
+                    <p class="lead text-center">Contact Us</p>
+                    <hr id="address_bottom_hr">
+                    <p class="lead"><span><a href="#" class="social-icon"> <i class="fa fa-mobile fa-2x"
+                                    style="color:#DDDDDD;"></i></a></span> +1 905 956 7673</p>
+                    <p class="lead"><span><a href="#" class="social-icon"> <i class="fa fa-envelope fa-sm"
+                                    style="color:#DDDDDD;"></i></a></span>info@mysoredarshini.com</p>
+                </div>
+                <div class="col-lg-2 mt-3 mb-3 text-white text-center" id="social-icons-div">
+                    <div class="footer-social-icon">
+                        <p class="lead text-center">Social Media</p>
+                        <hr id="address_bottom_hr">
+                        <span class="social-icons">
+                            <span><a href="https://www.facebook.com/mysoreDarshiniMississauga/" class="social-icon">
+                                    <i class="fa fa-facebook fa-lg" style="color:#DDDDDD;"></i></a></span>
+                            <span><a href="" class="social-icon"> <i class="fa fa-instagram fa-lg"
+                                        style="color:#DDDDDD;"></i></a></span>
+                            <span><a href="" class="social-icon"> <i class="fa fa-google-plus fa-lg"
+                                        style="color:#DDDDDD;"></i></a></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-3 mb-3 text-center" id="black_and_white_Logo">
+                    <img src="../Images/MD/logo_bnw.png" class="img-fluid" alt="" style="padding-top: 60px;">
+                </div>
+            </div>
+
+            <hr id="address_bottom_hr">
+
+
+            <div class="row">
+                <div class="col">
+                    <div class=" text text-center text-white">
+                        © Copyright 2020 MysoreDarshini- All Rights Reserved
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
