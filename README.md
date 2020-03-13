@@ -45,5 +45,5 @@ Change the image and menu articats to your restaurant/hotel menu and deploy to "
 
 ## Acknowledgments
 
-* Theme and Course Courtesy : Brad Traversy @ TraversyMedia
+* Theme and Course Courtesy : TraversyMedia ( https://github.com/bradtraversy )
 * Git README template from : PurpleBooth@github ( https://gist.github.com/109311bb0361f32d87a2.git )
