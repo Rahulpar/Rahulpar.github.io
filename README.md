@@ -2,7 +2,6 @@
 
 Mysore Darshini website upgrade project
 
-<<<<<<< HEAD
 ## Getting Started
 
 Any small business restaurant/hotel can use this template and build your website.
@@ -48,11 +47,3 @@ Change the image and menu articats to your restaurant/hotel menu and deploy to "
 
 * Theme and Course Courtesy : Brad Traversy @ TraversyMedia
 * Git README template from : PurpleBooth@github ( https://gist.github.com/109311bb0361f32d87a2.git )
-=======
-Getting Started
-Any small business restaurant/hotel can use this template and build your website.
-
-
-Acknowledgments
-Traversy Media
->>>>>>> 11d97ac5dbe45b4bee694a62fee1843eeed255f4
